@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/Recomend/main",
+    "pages/Singer/main",
+    "pages/Rank/main",
+    "pages/Search/main",
+    "pages/Songs/main",
+    "pages/Player/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTitleText": "音乐小电台",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "orange",
+    "backgroundColor": "#d43c33",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/Recomend/main",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/Rank/main",
+        "text": "排行"
+      },
+      {
+        "pagePath": "pages/Singer/main",
+        "text": "歌手"
+      },
+      {
+        "pagePath": "pages/Search/main",
+        "text": "搜索"
+      }
+    ]
+  }
+}

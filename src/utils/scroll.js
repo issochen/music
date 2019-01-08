@@ -1,0 +1,71 @@
+export const num = [
+  1577, 1758, 2345, 2605, 2873, 3621, 4128, 4231, 5140, 5727, 5990, 6251, 6355, 6456, 6798, 6981, 7486, 8156, 8501
+]
+
+export function scroll(e) {
+  let scrollY = e.mp.detail.scrollTop
+  if ( 0 <= scrollY && scrollY < 828) {
+    this.title = '热门'
+    this.flag = 0
+  } else if ( 828 <= scrollY && scrollY < num[0]) {
+    this.title = 'A'
+    this.flag = 1
+  } else if ( num[0] <= scrollY && scrollY < num[1]) {
+    this.title = 'B'
+    this.flag = 2
+  } else if (num[1] <= scrollY && scrollY < num[2]) {
+    this.title = 'C'
+    this.flag = 3
+  } else if (num[2] <= scrollY && scrollY < num[3]) {
+    this.title = 'F'
+    this.flag = 4
+  } else if (num[3] <= scrollY && scrollY < num[4]) {
+    this.title = 'G'
+    this.flag = 5
+  } else if (num[4] <= scrollY && scrollY < num[5]) {
+    this.title = 'H'
+    this.flag = 6
+  } else if (num[5] <= scrollY && scrollY < num[6]) {
+    this.title = 'J'
+    this.flag = 7
+  } else if (num[6] <= scrollY && scrollY < num[7]) {
+    this.title = 'K'
+    this.flag = 8
+  } else if (num[7] <= scrollY && scrollY < num[8]) {
+    this.title = 'L'
+    this.flag = 9
+  }else if (num[8] <= scrollY && scrollY < num[9]) {
+    this.title = 'M'
+    this.flag = 10
+  }else if (num[9] <= scrollY && scrollY < num[10]) {
+    this.title = 'N'
+    this.flag = 11
+  }else if (num[10] <= scrollY && scrollY < num[11]) {
+    this.title = 'P'
+    this.flag = 12
+  }else if (num[11] <= scrollY && scrollY < num[12]) {
+    this.title = 'Q'
+    this.flag = 13
+  }else if (num[12] <= scrollY && scrollY < num[13]) {
+    this.title = 'R'
+    this.flag = 14
+  }else if (num[13] <= scrollY && scrollY < num[14]) {
+    this.title = 'S'
+    this.flag = 15
+  }else if (num[14] <= scrollY && scrollY < num[15]) {
+    this.title = 'T'
+    this.flag = 16
+  }else if (num[15] <= scrollY && scrollY < num[16]) {
+    this.title = 'W'
+    this.flag = 17
+  }else if (num[16] <= scrollY && scrollY < num[17]) {
+    this.title = 'X'
+    this.flag = 18
+  }else if (num[17] <= scrollY && scrollY < num[18]) {
+    this.title = 'Y'
+    this.flag = 19
+  }else if (num[18] <= scrollY) {
+    this.title = 'Z'
+    this.flag = 20
+  }
+}
