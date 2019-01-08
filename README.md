@@ -20,7 +20,16 @@
 ```
 ## 效果
   ![image]
-  (https://github.com/issochen/music/blob/master/el.gif)
+  (https://github.com/issochen/music/blob/master/el1.PNG)
+  ![image]
+  (https://github.com/issochen/music/blob/master/el2.PNG)
+  ![image]
+  (https://github.com/issochen/music/blob/master/el3.PNG)
+  ![image]
+  (https://github.com/issochen/music/blob/master/el4.PNG)
+  ![image]
+  (https://github.com/issochen/music/blob/master/el5.PNG)
+
 ## 功能
 ``` 
   数据全是请求 NeteaseCloudMusicApi 的api
