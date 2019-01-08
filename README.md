@@ -18,6 +18,9 @@
   # build for production and view the bundle analyzer report
   npm run build --report
 ```
+## 效果
+  ![image]
+  (https://github.com/issochen/music/blob/master/el.gif)
 ## 功能
 ``` 
   数据全是请求 NeteaseCloudMusicApi 的api
