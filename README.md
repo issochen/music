@@ -19,16 +19,11 @@
   npm run build --report
 ```
 ## 效果
-  ![image]
-  (https://github.com/issochen/music/blob/master/el1.PNG)
-  ![image]
-  (https://github.com/issochen/music/blob/master/el2.PNG)
-  ![image]
-  (https://github.com/issochen/music/blob/master/el3.PNG)
-  ![image]
-  (https://github.com/issochen/music/blob/master/el4.PNG)
-  ![image]
-  (https://github.com/issochen/music/blob/master/el5.PNG)
+  ![image](https://github.com/issochen/music/blob/master/el1.png)
+  ![image](https://github.com/issochen/music/blob/master/el2.png)
+  ![image](https://github.com/issochen/music/blob/master/el3.png)
+  ![image](https://github.com/issochen/music/blob/master/el4.png)
+  ![image](https://github.com/issochen/music/blob/master/el5.png)
 
 ## 功能
 ``` 
